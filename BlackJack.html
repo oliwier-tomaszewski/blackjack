@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Dealer</p>
+    <div id="dealer-hand"></div>
+
+    <p>Player</p>
+    <div id="player-hand"></div>
+
+        <p>Dealer: <span id="dealer-score"></span></p>
+        <p>Player: <span id="player-score"></span></p>
+
+    <div id="buttons">
+        <button id="hit" onclick="hit()">hit</button>
+        <button id="stand" onclick="stand()">stand</button>
+        <button id="double" onclick="double()">double</button>
+        <button onclick="restartGame()">nowa gra</button>
+    </div>
+
+    <p id="message"></p>
+
+    <footer>Ten projekt jest wyłącznie w celach edukacyjnych. żadne prawdziwe pieniądze nie są zaangażowane</footer>
+
+    <script src="code.js"></script>
+</body>
+</html>

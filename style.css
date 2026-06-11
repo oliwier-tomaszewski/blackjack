@@ -1,0 +1,81 @@
+body {
+    background-color: #35654d;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 3);
+}
+
+#player-hand, #dealer-hand {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+button {
+    background-color: gold;
+    background-color: #c9a84c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a8893d;
+}
+
+button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+}
+
+#score {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+#message {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ffd700;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    text-align: center;
+}
